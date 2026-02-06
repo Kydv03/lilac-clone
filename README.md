@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🌸 Lilac Template – Homepage Clone
 
-## Getting Started
+A fully responsive homepage clone built with Next.js 13+ (App Router) and Tailwind CSS, replicating the original layout and structure of the Lilac Squarespace template.
 
-First, run the development server:
+This project represents Part 1 (UI Clone) of the assignment.
 
-```bash
+🚀 Features
+✔ Perfect Layout Replication
+
+Hero section
+
+About section
+
+Specialties
+
+About-me card
+
+FAQs
+
+Footer
+
+All sections fully match the structure of the original template.
+
+✔ Fully Responsive
+
+Mobile
+
+Tablet
+
+Desktop
+
+Flexible grids & spacing using Tailwind CSS.
+
+✔ Smooth Scroll Animations
+
+Sections fade + slide in using the custom ScrollAnimation component (IntersectionObserver).
+
+🛠 Tech Stack
+Tool Purpose
+Next.js 13+ Routing, SSR, frontend framework
+React UI components
+Tailwind CSS Styling, layout & responsive design
+Vercel (optional) Deployment
+📂 Folder Structure
+lilac-clone/
+├── public/
+│ ├── hero-flower.jpg
+│ ├── section2.jpg
+│ ├── section4.jpg
+│ ├── section5-main.jpg
+│ ├── section5-small.jpg
+│ ├── section6.jpg
+│ ├── special1.jpg
+│ ├── special2.jpg
+│ ├── special3.jpg
+│
+├── src/app/
+│ ├── components/ScrollAnimation.jsx
+│ ├── globals.css
+│ ├── layout.tsx
+│ ├── page.js
+│
+├── package.json
+├── tailwind.config.js
+└── README.md
+
+🖼 Screenshots
+🖥 Desktop View
+
+![Desktop Screenshot](./Screenshot.png)
+
+📌 How to Run Locally
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📦 Deployment
 
-## Learn More
+You can deploy this project easily using Vercel:
 
-To learn more about Next.js, take a look at the following resources:
+vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📘 Assignment Notes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project completes:
 
-## Deploy on Vercel
+✅ Part 1 — Homepage Clone (UI Accuracy Test)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Replicated layout
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Replicated spacing & structure
+
+Fully responsive
+
+Based on the original Squarespace Lilac homepage
+
+Part 2 (Redesign using Dr. Maya Reynolds' profile) will be built in a separate branch/repository.
+
+👩‍💻 Author
+
+Khushi Yadav
+Frontend Developer
+Email: khushiyadav2003.my@gmail.com
+GitHub: https://github.com/Kydv03
