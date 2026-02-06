@@ -64,11 +64,6 @@ lilac-clone/
 ├── tailwind.config.js
 └── README.md
 
-🖼 Screenshots
-🖥 Desktop View
-
-![Desktop Screenshot](./Screenshot.png)
-
 📌 How to Run Locally
 npm install
 npm run dev
